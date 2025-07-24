@@ -8,6 +8,7 @@ const User = ({user}) => {
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>
             <p><small>Website: {website}</small></p>
+            <button><a href={`/user/${id}`}>User Details</a></button>
         </div>
     );
 };
